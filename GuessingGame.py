@@ -16,5 +16,6 @@ def GuessGame() :
             print("Congrats! You win !!")
             return
     print("You ran out of attempts :(...,Try Again next time!!")
+    print("The number was "+ str(number) + " btw")
 
 GuessGame()
